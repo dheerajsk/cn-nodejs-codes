@@ -1,0 +1,8 @@
+// call arithmetic funcitons, get result and print result on terminal.
+
+// how to import a module.
+const arithmeticModule = require('./arithmetic');
+
+// call sum function.
+const result = arithmeticModule.div(10, 20);
+console.log(result);
