@@ -2,7 +2,7 @@
 
 // const arithmaticModule = require('./arithmatic');
 
-import * as arithmaticModule from './arithmatic.mjs';
+import * as arithmeticModule from './arithmetic.js';
 
-console.log(arithmaticModule.sum(10, 20));
+console.log(arithmeticModule.sum(10, 20));
 // console.log(arithmaticModule.num);
