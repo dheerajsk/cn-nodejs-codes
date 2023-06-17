@@ -12,10 +12,8 @@ const server = http.createServer((req, res) => {
       console.log(body);
       res.end('Data is received');
     });
-  } else {
-    console.log('function ends here');
-    res.end('Welcome to node js');
   }
+  res.end('Welcome to node js');
 });
 
 server.listen(3100);
